@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="document.querySelectorAll('.item_listsGrid,.item_lists2,.item_lists3,.item_lists4, .skills-container2, .skills-container3').forEach(element => element.style.display = 'none');">
+
+  <!-- header -->
+  <section id="header"style="background-color: #F4F7FD">
+    
+      <div class="container"> 
+          <header class="d-flex flex-wrap justify-content-center py-3"> 
+            <a href="#title" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis ">
+              <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                <use xlink:href="#bootstrap"></use>
+              </svg> 
+              <span class="fs-4">Aanu Ijiwade</span> 
+              </a> 
+              <ul class="nav nav-pills"> 
+                <li class="nav-item"><a href="#title" class="nav-link home-link">Home</a></li>
+                <li class="nav-item"><a href="#features" class="nav-link">Projects</a></li> 
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li> 
+
+              </ul> 
+          </header> 
+      </div>
+
+    
+  </section>
+  <!-- Title -->
+  <section id="title">
+    <div class="titled">
+      <div class="profile-container">
+          <img class="img" src="./images/Pic.jpg "alt="image1">    
+      </div>
+     
+       <h2>Hi, I'm Aanu Ijiwade</h2>
+  
+         <h1 class="hero-title">Full-Stack Developer</h1>
+         <div class="hero-description">
+          <p>I build modern, responsive and User-friendly web applications</p>
+          <p > using cutting-edge technologies.</p>  
+           <a href="#features" class="contact-btn">View Projects</a>
+           <a href="#contact" class="contact-btn1">Contact Me</a>
+          <img class="down-arrow" src="./images/arrow-down.svg" alt="image2">
+            
+         </div>
+    </div>
+    
+  </section>
+  <!-- Features -->
+  <section  id="features">
+    <div class="features" id="feature">
+      <h2 class="my_project">My Projects</h2>
+      <div class="hero-description" id="subtitle">
+          <p>Explore my recent development work. Each project includes live demos .</p>
+          <p class="close_gap">and GitHub links to their source code.</p>  
+      </div>
+      <div class="project-filter">
+        <div class="btns">
+          <button class="filter-btn all-projects active">All Projects</button>
+          <button class="filter-btn">Website</button>
+          <button class="filter-btn">Game</button>
+          <button class="filter-btn">Utility</button>
+        </div>
+        <div class="search-box">
+         <i class="bi bi-search"></i>
+         <input type="text" placeholder="Search projects...">
+        </div>
+      </div>
+      <div class="item_lists1">
+        <div class="item1_flex">
+          <img class="item-img1" src="./images/Tindog.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Tin Dog</p>
+          <p class="description">This platform connect buyers and sellers to buys dogs</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="tinDog" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="tinDogDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/movingApp.png" alt="Moving_App"height="200" width="250">
+          <p class="title">Moving App</p>
+          <p class="description">This platform helps users find and book moving services.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="move" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="moveDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/pricelist_img.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Price List</p>
+          <p class="description">A responsive price list application designed for easy price management.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            
+          </div>
+          <div class="btns3">
+               <button id="price" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="priceDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- ItemLists2 -->
+      <div class="item_lists2">
+        <div class="item1_flex">
+          <img class="item-img1" src="./images/Tindog.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Tin Dog</p>
+          <p class="description">This platform connect buyers and sellers to buys dogs</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="tinDog" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="tinDogDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/movingApp.png" alt="Moving_App"height="200" width="250">
+          <p class="title">Moving App</p>
+          <p class="description">This platform helps users find and book moving services.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="move" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="moveDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/pricelist_img.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Price List</p>
+          <p class="description">A responsive price list application designed for easy price management.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            
+          </div>
+          <div class="btns3">
+               <button id="price" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="priceDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ItemLists3(Games) -->
+      <div class="item_lists3">
+        <div class="item1_flex">
+          <img class="item-img1" src="./images/memoryGame_img.png" alt="Memory_Challenge_Game"height="200" width="250">
+          <p class="title">Memory Challenge Game</p>
+          <p class="description">A game where the player must remember and reproduce a sequence of items.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="MemoryGame" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="MemoryGameDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/DiceImg.png" alt="Dice_Roll_Game"height="200" width="250">
+          <p class="title">Dice Roll Game</p>
+          <p class="description">A simple dice rolling game for two players.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="diceGame" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="diceGameDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/DrumKit_img.png" alt="Drum_Kit_image"height="200" width="250">
+          <p class="title">Drum Kit</p>
+          <p class="description">A simple drum kit application for creating beats.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            
+          </div>
+          <div class="btns3">
+               <button id="drumKit" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="drumKitDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ItemLists4(utility) -->
+      <div class="item_lists4">
+        <div class="item1_flex">
+          <img class="item-img1" src="./images/Tindog.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Tin Dog</p>
+          <p class="description">This platform connect buyers and sellers to buys dogs</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="tinDog" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="tinDogDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/movingApp.png" alt="Moving_App"height="200" width="250">
+          <p class="title">Moving App</p>
+          <p class="description">This platform helps users find and book moving services.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="move" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="moveDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2_flex">
+          <img class="item-img1" src="./images/pricelist_img.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Price List</p>
+          <p class="description">A responsive price list application designed for easy price management.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            
+          </div>
+          <div class="btns3">
+               <button id="price" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="priceDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Item Lists Grid -->
+      <div class="item_listsGrid">
+        <div class="item1">
+          <img class="item-img1" src="./images/Tindog.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Tin Dog</p>
+          <p class="description">This platform connect buyers and sellers to buys dogs</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="tinDog" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="tinDogDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2">
+          <img class="item-img1" src="./images/movingApp.png" alt="Moving_App"height="200" width="250">
+          <p class="title">Moving App</p>
+          <p class="description">This platform helps users find and book moving services.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="move" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="moveDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2">
+          <img class="item-img1" src="./images/pricelist_img.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Price List</p>
+          <p class="description">A responsive price list application designed for easy price management.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            
+          </div>
+          <div class="btns3">
+               <button id="price" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="priceDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item1">
+          <img class="item-img1" src="./images/Tindog.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Tin Dog</p>
+          <p class="description">This platform connect buyers and sellers to buys dogs</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="tinDog" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="tinDogDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2">
+          <img class="item-img1" src="./images/movingApp.png" alt="Moving_App"height="200" width="250">
+          <p class="title">Moving App</p>
+          <p class="description">This platform helps users find and book moving services.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            <button class="view-btn">Bootstrap</button>
+          </div>
+          <div class="btns3">
+               <button id="move" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="moveDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>
+
+        <div class="item2">
+          <img class="item-img1" src="./images/pricelist_img.png" alt="Tindog_image"height="200" width="250">
+          <p class="title">Price List</p>
+          <p class="description">A responsive price list application designed for easy price management.</p>
+          <div class="btns2">
+            <button class="view-btn">HTML</button>
+            <button class="view-btn">CSS</button>
+            <button class="view-btn">JS</button>
+            
+          </div>
+          <div class="btns3">
+               <button id="price" class="github-btn">
+              <i class="bi bi-github" style="margin-right: 10px;"></i>GitHub </button>
+              <button id="priceDemo" class="live-btn" >
+              <i class="bi bi-box-arrow-up-right" style="margin-right: 10px;"></i>Live Demo </button>
+          </div>
+        </div>  
+      </div>
+
+
+     <button class="load_projects">Load More Projects</button>
+
+
+      
+    </div>
+
+  </section>
+  <!-- skills -->
+  <section id="skills">
+    <div>
+      <h2 class="my_project">My Skills</h2>
+      <div class="hero-description" id="subtitle">
+      <p>A quick overview of the tools and technologies I used.</p>
+    </div>
+    <div class="project-filter2">
+        <div class="btns">
+          <button  class="filter-btn2 active">Frontend</button>
+          <button  class="filter-btn2">Backend</button>
+          <button  class="filter-btn2">Tools</button>
+    </div>
+      <div class="skills-container1">
+        <div class="skill">
+          <div class="skill-info">
+              <span>HTML/CSS</span>
+              <span>99%</span>
+          </div>
+          <div class="progress">
+              <div class="progress-bar" style="width: 99%;"></div>
+          </div>
+       </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>JavaScript</span>
+            <span>80%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Bootstrap</span>
+            <span>75%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Responsive Design  </span>
+            <span>80%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>React</span>
+            <span>75%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+  <div class="skills-container2">
+        <div class="skill">
+          <div class="skill-info">
+              <span>Node.js & Express.js</span>
+              <span>99%</span>
+          </div>
+          <div class="progress">
+              <div class="progress-bar" style="width: 99%;"></div>
+          </div>
+       </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>API Development</span>
+            <span>80%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>MongoDB,SQL & PostgreSQL</span>
+            <span>75%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Java</span>
+            <span>80%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Spring Boot</span>
+            <span>75%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        
+      </div>
+  
+
+  <div class="skills-container3">
+        <div class="skill">
+          <div class="skill-info">
+              <span>VS Code</span>
+              <span>99%</span>
+          </div>
+          <div class="progress">
+              <div class="progress-bar" style="width: 99%;"></div>
+          </div>
+       </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Git & GitHub</span>
+            <span>80%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Postman</span>
+            <span>75%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>AI tools  </span>
+            <span>80%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Docker</span>
+            <span>75%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+          </div>
+        </div>
+      </div>
+  </section>
+            
+
+
+  <!-- Resumes -->
+  <section id="resume">
+    <div class="resume">
+      <div>
+        <h2 class="my_project">My Resume</h2>
+        <div class="hero-description" id="subtitle">
+          <p>Get a complete overview of my skills, experience and education by</p>
+           <p class="close_gap">downloading my resume.</p>  
+        </div>
+      </div>
+      
+      <div class="resume-container">
+          <i class="bi bi-file-earmark-text my-icon"></i>
+         
+          <div class="hero-description" id="subtitle">
+            <h2 class="h3">Professional Resume</h2>
+          <p>A comprehensive document showcasing my skills,</p>
+          <p class="close_gap"> experience, and achievements.</p>  
+        </div>
+         <button class="download-btn"><i class="bi bi-download"style="margin-right: 10px;"></i>  Download Resume</button>
+      </div>
+      
+    </div>  
+
+  </section>
+
+  
+   <!-- contact -->
+   <section id="contact">
+      <div class="contact">
+        <div>
+          <h2 class="my_project">Get In Touch</h2>
+          <div class="hero-description" id="subtitle">
+            <p>Have a project in mind or you want to work together? Feel free to reach out.</p>
+          </div>
+        </div>
+      <div class="larger_container"> 
+        <div class="contacts">
+          <div class="contact-info">
+            <h5>Contact Information</h5>
+            <div class="email_section">
+              <div class="large_container">
+                <div class="email_container"><i class="bi bi-envelope email_icon"></i></div>
+              </div>
+          
+              <div class="inner_email">
+                  <h6 >Email</h6>
+                  <a href="mailto:hello@example.com">aanukayode2@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="email_section">
+              <div class="large_container">
+                <div class="email_container"><i class="bi bi-telephone email_icon"></i></div>
+              </div>
+          
+              <div class="inner_email">
+                  <h6 >Phone</h6>
+                  <a href="tel:+2349063074615">09063074615</a>
+              </div>
+            </div>
+
+            <div class="email_section">
+              <div class="large_container">
+                <div class="email_container"><i class="bi bi-geo-alt email_icon"></i></div>
+              </div>
+          
+              <div class="inner_email">
+                  <h6>Location</h6>
+                  <a>Lagos, Nigeria</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="contact-container">
+          <form class="contact-form">
+
+              <div class="form-row">
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          placeholder="Your name"
+                          required
+                      >
+                  </div>
+
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          placeholder="Your email"
+                          required
+                      >
+                  </div>
+              </div>
+
+              <div class="form-group subject-group">
+                  <label for="subject">Subject</label>
+                  <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      placeholder="Subject"
+                      required
+                  >
+              </div>
+
+              <div class="form-group message-group">
+                  <label for="message">Message</label>
+                  <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Your message"
+                      required
+                  ></textarea>
+              </div>
+
+              <button type="submit">Send Message</button>
+
+          </form>
+      </div>
+
+      </div>
+        
+
+        
+
+        
+            
+
+      </div>
+    </section>
+
+   <!-- footer -->
+  <section id="footer">
+    <div class="footer">
+      <div class="first_part">
+        <span class="fs-4">My Portfolio</span> 
+        <p style="margin-top:8px;" class="footer_words1">crafting clean, modern web experiences with passion and precision.</p>
+      </div>
+
+      <div class="second_part">
+         <div id="github" class="footer_container"> <i class="bi bi-github footer_icon"></i></div>
+         <div id="facebook" class="footer_container"><i class="bi bi-facebook footer_icon "></i></div>  
+         <div id="linkedin" class="footer_container"><i class="bi bi-linkedin footer_icon"></i></div>  
+         <div id="instagram" class="footer_container"><i class="bi bi-instagram footer_icon"></i></div>
+
+
+      </div>
+      
+    </div>
+    <p class="footer_words2"> © 2026 Aanu Ijiwade. All rights reserved.</p>
+
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+<script>
+
+
+// Website filter buttons
+const filterButtons = document.querySelectorAll(".filter-btn");
+
+filterButtons.forEach(function(button, index) {
+
+    button.addEventListener("click", function() {
+
+        // Restore features ID if Load More was previously clicked
+        const features = document.querySelector(".features_for_load");
+
+        if (features) {
+            features.classList.remove("features_for_load");
+            features.setAttribute("id", "features");
+        }
+
+        // Hide all project lists first
+        document.querySelector(".item_lists1").style.display = "none";
+        document.querySelector(".item_lists2").style.display = "none";
+        document.querySelector(".item_lists3").style.display = "none";
+        document.querySelector(".item_lists4").style.display = "none";
+
+        // Hide the expanded project grid
+        document.querySelector(".item_listsGrid").style.display = "none";
+
+        // Show the selected project list
+        document.querySelector(".item_lists" + (index + 1)).style.display = "flex";
+
+        // Show Load More only when All Projects is selected
+        if (buttonsIsAllProjects(button)) {
+            document.querySelector(".load_projects").style.display = "block";
+        } else {
+            document.querySelector(".load_projects").style.display = "none";
+        }
+
+        // Update active button
+        filterButtons.forEach(function(btn) {
+            btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+    });
+
+});
+
+function buttonsIsAllProjects(button) {
+    return button.classList.contains("all-projects");
+}
+
+
+
+
+  // TinDog GitHub button
+document.querySelectorAll("#tinDog").forEach(function(button) {
+    button.addEventListener("click", function() {
+        window.open("https://github.com/Aanu246/DogWebsiteWithBootstrap");
+    });
+});
+
+// TinDog Live Demo button
+document.querySelectorAll("#tinDogDemo").forEach(function(button) {
+    button.addEventListener("click", function() {
+        window.open("https://aanu246.github.io/DogWebsiteWithBootstrap/", "_blank");
+    });
+});
+
+//For moving app button
+    document.querySelectorAll("#move").forEach(function(button) {
+    button.addEventListener("click", function() {
+        window.open("https://github.com/Aanu246/Moving_Services", "_blank");
+    });
+});
+
+document.querySelectorAll("#moveDemo").forEach(function(button) {
+    button.addEventListener("click", function() {
+        window.open("https://aanu246.github.io/Moving_Services/", "_blank");
+    });
+}); 
+
+//For price list button
+document.querySelectorAll("#price").forEach(function(button) {
+ button.addEventListener("click", function() {
+      window.open("https://github.com/Aanu246/pricing_table_GridStyle", "_blank");
+  });
+});
+
+document.querySelectorAll("#priceDemo").forEach(function(button) {
+    button.addEventListener("click", function() {
+        window.open("https://aanu246.github.io/pricing_table_GridStyle/", "_blank");
+    });
+});
+
+//For memory challenge game button
+document.querySelector("#MemoryGame").addEventListener("click", function() {
+    
+    window.open("https://github.com/Aanu246/Memory_challenge_game", "_blank");
+});
+
+document.querySelector("#MemoryGameDemo").addEventListener("click", function() {
+    window.open("https://aanu246.github.io/Memory_challenge_game/", "_blank");
+});
+//For dice game button
+document.querySelector("#diceGame").addEventListener("click", function() {
+    window.open("https://github.com/Aanu246/Dice_challenge_Game", "_blank");
+});
+
+document.querySelector("#diceGameDemo").addEventListener("click", function() {
+    window.open("https://aanu246.github.io/Dice_challenge_Game/", "_blank");
+});
+//For drum kit button
+document.querySelector("#drumKit").addEventListener("click", function() {
+    window.open("https://github.com/Aanu246/DrumKit", "_blank");
+});
+
+document.querySelector("#drumKitDemo").addEventListener("click", function() {
+    window.open("https://aanu246.github.io/DrumKit/", "_blank");
+});
+
+
+//for load_projects button
+  document.querySelector(".load_projects").addEventListener("click", function() {
+
+    //if feature_for_load is an id too
+    //const features = document.querySelector("#features");
+    //features.setAttribute("id", "features_for_load");
+
+    //from id to class
+    const features = document.querySelector("#features");
+    features.removeAttribute("id");
+    features.classList.add("features_for_load");
+    document.querySelector('.item_lists1').style.display = 'none';
+    document.querySelector('.item_listsGrid').style.display = 'grid';
+    document.querySelector('.load_projects').style.display = 'none';
+  });
+
+  //for skill filter buttons
+const skillButtons = document.querySelectorAll(".filter-btn2");
+
+skillButtons.forEach(function(button, index) {
+
+    button.addEventListener("click", function() {
+
+        // Remove active class from all buttons
+        skillButtons.forEach(function(btn) {
+            btn.classList.remove("active");
+        });
+
+        // Add active class ony to the clicked button
+        button.classList.add("active");
+
+        // Hide all skill containers
+        document.querySelector(".skills-container1").style.display = "none";
+        document.querySelector(".skills-container2").style.display = "none";
+        document.querySelector(".skills-container3").style.display = "none";
+
+        // Show the selected skill container
+        document.querySelector(".skills-container" + (index + 1)).style.display = "grid";
+
+    });
+
+});
+
+
+  //for social media buttons
+  document.querySelector("#github").addEventListener("click", function() {
+    window.open("https://github.com/", "_blank");
+  });
+
+  document.querySelector("#facebook").addEventListener("click", function() {
+    window.open("https://www.facebook.com/", "_blank");
+  });
+
+  document.querySelector("#linkedin").addEventListener("click", function() {
+    window.open("https://www.linkedin.com/in/aanu-ijiwade-10369a431/", "_blank");
+  });
+
+  document.querySelector("#instagram").addEventListener("click", function() {
+    window.open("https://www.instagram.com/", "_blank");
+  });
+
+
+
+ //OR
+ // document.querySelector(".github-btn").addEventListener("click", function() {
+   // window.location.href = "https://www.google.com";
+//});
+
+</script> 
+
+
+
+</html>
+
